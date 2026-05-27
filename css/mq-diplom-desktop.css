@@ -96,8 +96,9 @@ h2.trends_title {
 }
 
 .trends_container {
-    max-width: calc((100% - 12px) / 4);
+    width: calc((100% - 12px) / 4);
     height: 319px;
+    box-sizing: border-box;
 
     padding: 0 22px 15px 22px;
 
@@ -111,6 +112,7 @@ h2.trends_title {
 
 .trends_container_content {
     padding: 35px;
+    width: 100%;
 
     border: 3px solid rgba(181, 159, 91, 0.6);
 
