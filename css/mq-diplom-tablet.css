@@ -1,0 +1,111 @@
+ul.menu {
+    display: none;
+}
+
+.menu_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 19px;
+    width: 23px;
+
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.menu-line {
+    width: 23px;
+    height: 3px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+
+
+
+
+.trends_list {
+    flex-wrap: wrap;
+}
+
+.trends_container {
+    width: calc((100% - 4px) / 2);
+}
+
+
+
+
+
+.main {
+    margin-top: 44px;
+    margin-bottom: 50px;
+}
+
+.main-page_center {
+    max-width: 768px;
+    padding: 0 35px;
+    margin-top: 50px;
+}
+
+.post_container {
+    width: 392px;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.post_container::after {
+    content: "";
+    display: block;
+    width: 392px;
+    height: 3px;
+    background-color: #eeeeee;
+    margin: 16px auto 42px;
+    opacity: 0.8;
+}
+.post_container:last-child::after {
+    content: none;
+}
+
+.post_image{
+    margin-right: 0;
+}   
+
+.side-bar {
+    margin-left: 35px;
+}
+
+
+
+
+
+.our-work {
+    margin-bottom: 50px;
+}
+
+.our-work_list {
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.our-work_container {
+    width: calc((100% - 22px) / 2);
+}
+
+
+
+
+
+address.social {
+    max-width: 768px;
+}
+
+
+
+
+
+.fake-radio {
+    width: 23px;
+    height: 23px;
+}

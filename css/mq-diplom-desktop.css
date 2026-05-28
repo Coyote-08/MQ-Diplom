@@ -58,6 +58,10 @@ li.menu {
     text-transform: uppercase;
 }
 
+.menu_button {
+    display: none;
+}
+
 h1.header_title {
     font-size: 45px;
     font-weight: 700;
@@ -244,7 +248,7 @@ section.post_list h2 {
 
 
 .side-bar {
-    margin: 0 0 62px 120px;
+    margin: 0 0 0 120px;
     width: 272px;
     text-align: center;
 }
@@ -531,7 +535,7 @@ p.new-price {
 
 
 address.social {
-    width: 1170px;
+    max-width: 1170px;
     background-color: #f4f7f6;
     margin: 0 auto 72px auto;
     display: flex;
@@ -733,9 +737,9 @@ select:focus {
     outline: none;
 }
 .custom-radio {
-    align-items: center;
     cursor: pointer;
     font-size: 13px;
+    margin: 0;
 }
 .custom-radio input {
     display: none;
@@ -750,6 +754,8 @@ select:focus {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+
+    vertical-align: middle;
 }
 .custom-radio input:checked + .fake-radio {
     background-image: url("../svg/form-circle.svg"); 
@@ -757,6 +763,6 @@ select:focus {
 .btn_popup {
     width: 100%;
 }
-._hidden {
+/* ._hidden {
     display: none;
-}
+} */
