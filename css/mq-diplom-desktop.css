@@ -69,6 +69,7 @@ h1.header_title {
     text-transform: uppercase;
     line-height: 75px;
     margin-top: 68px;
+    margin-bottom: 0;
     padding-bottom: 145px;
     
     width: 700px;
@@ -763,6 +764,6 @@ select:focus {
 .btn_popup {
     width: 100%;
 }
-/* ._hidden {
+._hidden {
     display: none;
-} */
+}
