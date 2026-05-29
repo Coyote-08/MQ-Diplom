@@ -160,3 +160,26 @@ h1.header_title {
 
     top: -40px;
 }
+
+
+
+
+
+@media (orientation: landscape) {
+    .trends_container {
+        width: calc((100% - 4px) / 2);
+        padding: 0 5px 10px 5px;
+    }
+
+    .trends_container_content {
+        padding: 10px 5px;
+    }
+
+    .trends_container_content h3 {
+        font-size: 12px;
+    }
+
+    .category {
+        font-size: 10px;
+    }
+}

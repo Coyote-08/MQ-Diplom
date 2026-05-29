@@ -120,3 +120,30 @@ address.social {
 
     top: -35px;
 }
+
+
+
+
+
+@media (orientation: landscape) {
+    .trends_list {
+        flex-wrap: nowrap;
+    }
+
+    .trends_container {
+        width: calc((100% - 12px) / 4);
+        padding: 0 5px 10px 5px;
+    }
+
+    .trends_container_content {
+        padding: 15px 10px;
+    }
+
+    .trends_container_content h3 {
+        font-size: 14px;
+    }
+
+    .category {
+        font-size: 12px;
+    }
+}
