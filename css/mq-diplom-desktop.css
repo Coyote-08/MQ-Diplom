@@ -151,7 +151,6 @@ h2.trends_title {
 }
 
 .category a {
-    line-height: 40px;
     text-transform: uppercase;
     color: #b59f5b;
     font-weight: 700;
@@ -205,10 +204,11 @@ h2.trends_title {
     padding: 0;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    gap: 0px 20px;
 }
 .category {
-    margin: 0;
-    padding-right: 20px;
+    margin: 8px 0 0 0;
     font-size: 14px;
     color: #b59f5b;
     text-transform: uppercase;
@@ -419,6 +419,7 @@ ul.theme_list li:first-child {
     font-size: 12px;
     font-weight: 700;
     color: #b59f5b;
+    vertical-align: super;
 }
 
 
